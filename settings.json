@@ -1,0 +1,9 @@
+{
+  "font-file":"Nunito-Regular.ttf",
+  "font-size":18,
+  "outer-padding":10,
+  "line-padding":5,
+  "bg-color":[48,48,48],
+  "highlight-color":[85, 85, 85],
+  "text-color":[255,255,255]
+}

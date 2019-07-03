@@ -1,0 +1,23 @@
+[
+  {
+    "text":"firefox",
+    "command":"env GTK_THEME=Adwaita:light firefox"
+  },
+  {
+    "text":"ff private",
+    "command":"env GTK_THEME=Adwaita:light firefox --private-window"
+  },
+  {
+    "text":"chspeech",
+    "command":"chromium --enable-speech-dispatcher"
+  },
+  {
+    "command":"spotify"
+  },
+  {
+    "command":"steam"
+  },
+  {
+    "command":"atom"
+  }
+]

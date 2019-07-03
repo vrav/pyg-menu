@@ -1,0 +1,14 @@
+[
+  {
+    "text":"workspaces",
+    "command":"python pyg-menu.py -m menu-workspace.json"
+  },
+  {
+    "text":"apps",
+    "command":"python pyg-menu.py -m menu-apps.json"
+  },
+  {
+    "text":"xeyes!",
+    "command":"xeyes"
+  }
+]

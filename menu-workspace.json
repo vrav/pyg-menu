@@ -1,0 +1,42 @@
+[
+  {
+    "text":"workspace 1",
+    "command":"i3-msg workspace number 1"
+  },
+  {
+    "text":"workspace 2",
+    "command":"i3-msg workspace number 2"
+  },
+  {
+    "text":"workspace 3",
+    "command":"i3-msg workspace number 3"
+  },
+  {
+    "text":"workspace 4",
+    "command":"i3-msg workspace number 4"
+  },
+  {
+    "text":"workspace 5",
+    "command":"i3-msg workspace number 5"
+  },
+  {
+    "text":"workspace 6",
+    "command":"i3-msg workspace number 6"
+  },
+  {
+    "text":"workspace 7",
+    "command":"i3-msg workspace number 7"
+  },
+  {
+    "text":"workspace 8",
+    "command":"i3-msg workspace number 8"
+  },
+  {
+    "text":"workspace 9",
+    "command":"i3-msg workspace number 9"
+  },
+  {
+    "text":"workspace 10",
+    "command":"i3-msg workspace number 10"
+  }
+]
