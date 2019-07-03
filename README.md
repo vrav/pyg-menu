@@ -3,7 +3,7 @@ Opens a simple visual shortcut menu, configured with JSON. Designed to be portab
 
 ![img1](https://i.imgur.com/PNFOV6u.jpg)
 
-This is a quick and dirty menu system I created in an evening because I wanted a menu when right-clicking i3bar on my linux install.
+This is a quick and dirty menu system I created in an evening because I wanted a menu when right-clicking i3bar on my linux install. Note, this only works on linux (and possibly OSX running X11, if Xlib does the same things there).
 
 ## Prerequisites
 Before you can run the script, you need a few things.
@@ -45,7 +45,7 @@ Pressing escape or moving the cursor out of the menu will exit the menu.
   "text-color":[255,255,255]
 }
 ```
-The font-file can be a full path or simply a filename in the script directory. If not found, pygame will use None, which still works.
+The font-file can be a full path or simply a filename in the script directory. If not found, pygame will use None, which still works, but is somewhat slower on startup.
 
 Outer padding surrounds the entire menu window, and the window is positioned so the cursor is inside it. Line padding adds extra padding to the top and bottom of menu items. Measurements are in pixels for both padding values.
 
