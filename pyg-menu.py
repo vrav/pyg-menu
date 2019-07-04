@@ -127,7 +127,7 @@ pointer_pos = (pointer_data["root_x"], pointer_data["root_y"])
 monitors = get_monitors()
 current_monitor = None
 for m in monitors:
-    if pointer_pos[0] > m.x and pointer_pos[1] > m.y and pointer_pos[0] < m.x+m.width and pointer_pos[1] < m.y+m.height:
+    if pointer_pos[0] >= m.x and pointer_pos[1] >= m.y and pointer_pos[0] <= m.x+m.width and pointer_pos[1] <= m.y+m.height:
         current_monitor = m
 
 if not current_monitor:
