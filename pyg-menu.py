@@ -178,10 +178,13 @@ if rel_pointer_pos[1] > current_monitor.height - window_size[1]:
 left_adj = settings["outer-padding"] if flip_left else -settings["outer-padding"]
 up_adj = settings["outer-padding"] if flip_up else -settings["outer-padding"]
 
-window_pos = (
+window_pos = [
     pointer_pos[0] - (window_size[0] if flip_left else 0) + left_adj,
     pointer_pos[1] - (window_size[1] if flip_up else 0) + up_adj
-)
+]
+
+window_pos[0] = 0 if window_pos[0] < 0 else window_pos[0]
+window_pos[1] = 0 if window_pos[1] < 0 else window_pos[1]
 
 os.environ['SDL_VIDEO_WINDOW_POS'] = str(window_pos[0]) + "," + str(window_pos[1])
 
